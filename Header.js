@@ -1,7 +1,6 @@
 class Header extends HTMLElement {
     connectedCallback() {
-       this.innerHTML = `   
-       <header>        
+       this.innerHTML = `          
        <ul class="nav nav-pills">
        <li class="nav-item">
          <a class="nav-link" aria-current="page" href="index.html">Home</a>
@@ -19,8 +18,7 @@ class Header extends HTMLElement {
        <li class="nav-item">
          <a class="nav-link" href="bio.html">Bio</a>
        </li>
-     </ul> 
-     </header>       
+     </ul>     
       `; 
     }
   }
