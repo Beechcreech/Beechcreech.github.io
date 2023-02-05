@@ -3,7 +3,7 @@ class Header extends HTMLElement {
        this.innerHTML = `          
        <ul class="nav nav-pills">
        <li class="nav-item">
-         <a class="nav-link" aria-current="page" href="index.html">Home</a>
+         <a class="nav-link" aria-current="page" href="/index.html">Home</a>
        </li>
        <li class="nav-item dropdown">
          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">GitHub Projects</a>
@@ -16,7 +16,7 @@ class Header extends HTMLElement {
          </ul>
        </li>
        <li class="nav-item">
-         <a class="nav-link" href="bio.html">Bio</a>
+         <a class="nav-link" href="/bio.html">Bio</a>
        </li>
      </ul>     
       `; 
