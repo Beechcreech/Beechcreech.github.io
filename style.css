@@ -6,12 +6,7 @@
     width: 100%;
     min-height: 100vh;
   }
-/*
-.content {
-    padding: 5%;
-    grid-column: 1 / 4;
-}
-*/
+
 
 .header {
     grid-column: 1 / 4;
@@ -24,10 +19,12 @@
 
 .selfie {
     grid-column: 1 / 2;
+    padding: 5%;
 }
 
 .bio {
     grid-column: 2 / 4;
+    padding: 5%;
 }
 
 img {
