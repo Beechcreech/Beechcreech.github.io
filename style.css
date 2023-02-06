@@ -25,6 +25,7 @@
 .bio {
     grid-column: 2 / 4;
     padding: 5%;
+    align-content: center;
 }
 
 img {
@@ -33,5 +34,5 @@ img {
 }
 
 .cards {
-    justify-items: center;
+    justify-content: center;
 }
