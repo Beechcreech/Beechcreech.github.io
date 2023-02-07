@@ -32,10 +32,11 @@ img {
 }
 
 .cards {
-    justify-content: center;
+    align-self: center;
 }
 
 .video {
     justify-content: center;
     grid-column: 2 / 3;
+    padding-top: 4em;
 }
