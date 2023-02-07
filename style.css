@@ -53,3 +53,7 @@ a:hover {
 a:link {
     text-decoration: none;
   }
+
+.link {
+    text-decoration: none;
+}
