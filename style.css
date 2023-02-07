@@ -8,12 +8,14 @@
 
 .header {
     grid-column: 1 / 4;
+    background-color: black;
 } 
 
 .footer {
     grid-column: 1 / 4;
     background-color: rgb(207, 207, 207);
     min-height: 20vh;
+    padding-top: 4em;
 } 
 
 .selfie {
