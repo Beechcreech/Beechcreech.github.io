@@ -12,7 +12,8 @@
 
 .footer {
     grid-column: 1 / 4;
-    background-color: blue;
+    background-color: rgb(207, 207, 207);
+    min-height: 20vh;
 } 
 
 .selfie {
@@ -23,7 +24,7 @@
 .bio {
     grid-column: 2 / 4;
     padding: 5%;
-    align-content: center;
+    align-self: center;
 }
 
 img {
@@ -32,7 +33,7 @@ img {
 }
 
 .cards {
-    align-self: center;
+    justify-self: center;
 }
 
 .video {
